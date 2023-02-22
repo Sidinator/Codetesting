@@ -1,3 +1,7 @@
 <!DOCTYPE html>
 
 <input type="color" />
+
+<a href="index.html">clickable link that can link to other documents </a>
+<p>you can also choose what part is clickable <a href="index.html"></a></p>
+<a href="google.com" target="_blank">opens in new tab</a>
