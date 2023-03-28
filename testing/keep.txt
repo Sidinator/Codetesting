@@ -1,0 +1,89 @@
+table{
+    /* border-spacing: 4px; */
+    table-layout: fixed;
+    width: 100%;
+    word-break: break-all;
+}
+table th {
+    color: red;
+    /* border-spacing: 10px 20px; */
+    text-align: left;
+}
+table td {
+    padding: 10px;
+
+}
+
+flex-grow
+
+    <!-- <div id="flex"></div>
+    <div class=""></div>
+  </body> -->
+  <!-- <body>
+    <img src="Sid.jpg" />
+    <h1>Hi, my name is Sid</h1>
+    <h2>Fun facts about me:</h2>
+    <table>
+      <tr>
+        <th>29 years old</th>
+      </tr>
+      <tr>
+        <th>Live in Norway</th>
+      </tr>
+      <tr>
+        <th>Learning how to code</th>
+      </tr>
+    </table>
+    <p>Please connect with me on <a href="linkedIn.com">LinkedIn here.</a></p>
+    <input type="text" placeholder="Enter email..." />
+    <button>Join newsletter</button>
+  </body> -->
+
+
+
+  <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="hero">
+        <img src ="spacex.png" id="main-logo" />
+        <h1>Join the <span class="underline">exploration</span></h1>
+        <button class="btn">Apply</button>
+    </div>
+  </body>
+</html>
+body {
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
+    background-size: cover; 
+    padding: 10px 0 40px 0;
+}
+
+#main-logo {
+    width: 100px;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;    font-weight: 800;
+}
+
+
+.underline {
+    border-bottom: 4px solid white;
+}
